@@ -9,26 +9,36 @@
     body {
       font-family: 'Arial', sans-serif;
       line-height: 1.6;
-      background-color: #f5f5f5;
+      background-color: #f4f4f4;
       color: #333;
       margin: 0;
       padding: 20px;
     }
 
     header {
-      background-color: #4285f4;
+      background-color: #333;
       color: #fff;
       text-align: center;
-      padding: 10px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     }
 
     h1 {
       margin: 0;
-      font-size: 2em;
+      font-size: 2.5em;
+    }
+
+    .tagline {
+      font-style: italic;
+      color: #ccc;
     }
 
     h2 {
-      color: #4285f4;
+      color: #333;
+      margin-top: 20px;
+      border-bottom: 2px solid #333;
+      padding-bottom: 10px;
     }
 
     section,
@@ -36,12 +46,13 @@
       background-color: #fff;
       margin: 20px 0;
       padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     }
 
     h3 {
-      color: #4285f4;
+      color: #333;
+      margin-top: 0;
     }
 
     ul {
@@ -54,7 +65,7 @@
     }
 
     .rating {
-      color: #ffd600;
+      color: #333;
     }
 
     .experience {
@@ -62,25 +73,32 @@
     }
 
     .job {
-      margin-bottom: 20px;
+      margin-bottom: 30px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 20px;
     }
 
     .job h4 {
       margin-bottom: 10px;
+      font-size: 1.2em;
+      color: #333;
     }
 
     .job p {
       margin: 0;
+      line-height: 1.5;
     }
 
     .education,
     .courses,
-    .references {
+    .references,
+    .extra {
       margin-top: 20px;
     }
 
-    .extra {
-      margin-top: 20px;
+    .extra h4,
+    .courses h4 {
+      color: #333;
     }
 
     .contact {
@@ -89,6 +107,7 @@
 
     .contact p {
       margin: 0;
+      line-height: 1.5;
     }
   </style>
 </head>
@@ -97,13 +116,14 @@
 
   <header>
     <h1>Emile Rollé</h1>
+    <p class="tagline">Highly motivated team worker with an extensive background in computer hardware and software with a strong cultural understanding of the German language including 7 years first-hand experience living in Germany. Wholly committed to utilizing my skills to further the mission of a company.</p>
   </header>
 
   <section>
     <h2>Personal Information</h2>
     <ul>
       <li>Address: Flat 1, Longport House, 12 Longport, Canterbury, CT1 1PE</li>
-      <li>Date of birth: 23.08.2001 Canterbury</li>
+      <li>Date of birth: 23.08.2001, Canterbury</li>
       <li>Nationality: British</li>
       <li>Driving License: MOT (125CC Motorbike)</li>
     </ul>
@@ -133,55 +153,55 @@
 
     <div class="job">
       <h4>April 2023 - Customer Service Representative at ASDA, Canterbury</h4>
-      <p>Customer Assistance: Provide prompt and professional assistance to customers in-store and over the phone,
-        addressing inquiries, concerns, and requests.</p>
-      <p>Checkout Support: Assist customers during checkout, answering questions about products, prices, and promotions,
-        and resolving payment-related issues.</p>
-      <p>Returns and Refunds: Process returns and exchanges, ensuring compliance with company policies, and handle refund
-        requests.</p>
-      <p>Stock Availability and Information: Help customers find products, communicate stock availability, and provide
-        information about store layouts, departments, and operating hours.</p>
+      <p>- Customer Assistance: Provide prompt and professional assistance to customers in-store and over the phone,
+        addressing inquiries, concerns, and requests</p>
+      <p>- Checkout Support: Assist customers during checkout, answering questions about products, prices, and promotions,
+        and resolving payment-related issues</p>
+      <p>- Returns and Refunds: Process returns and exchanges, ensuring compliance with company policies, and handle refund
+        requests</p>
+      <p>- Stock Availability and Information: Help customers find products, communicate stock availability, and provide
+        information about store layouts, departments, and operating hours</p>
     </div>
 
     <div class="job">
       <h4>February 2022 – September 2022 - UK/German IT Sales/Desk Support Engineer at PC Specialist, Folkestone,
         remote working</h4>
-      <p>Handling customer queries and sales concerns for both individual and enterprise computer sales</p>
-      <p>Resolving customer complaints wherever possible with excellent customer service skills</p>
-      <p>Creating quotes for prospective customers</p>
-      <p>First level IT Support</p>
+      <p>- Handling customer queries and sales concerns for both individual and enterprise computer sales</p>
+      <p>- Resolving customer complaints wherever possible with excellent customer service skills</p>
+      <p>- Creating quotes for prospective customers</p>
+      <p>- First level IT Support</p>
     </div>
 
     <div class="job">
       <h4>August 2021 – February 2022 - German Speaking Customer Service Advisor at The Hut Group, Folkestone, remote
         working</h4>
-      <p>Resolving customer queries via Telephone and Email channels</p>
-      <p>Maintaining a high level of quality on each call or contact</p>
-      <p>Striving for first time resolution</p>
-      <p>Understanding customer needs and providing suitable resolutions</p>
+      <p>- Resolving customer queries via Telephone and Email channels</p>
+      <p>- Maintaining a high level of quality on each call or contact</p>
+      <p>- Striving for first time resolution</p>
+      <p>- Understanding customer needs and providing suitable resolutions</p>
     </div>
 
     <div class="job">
       <h4>June 2021 – August 2021 - Assistant Chef at L&amp;B Restaurants, Folkestone, United Kingdom</h4>
-      <p>Presented quality food in a professional and timely manner</p>
-      <p>Adhering to and maintaining hygiene standards</p>
-      <p>Working with a team in a bustling, fast-paced environment</p>
+      <p>- Presented quality food in a professional and timely manner</p>
+      <p>- Adhering to and maintaining hygiene standards</p>
+      <p>- Working with a team in a bustling, fast-paced environment</p>
     </div>
 
     <div class="job">
-      <h4>August 2019 – June 2021 - T Systems Specialist (Apprenticeship) at Salesians of Don Bosco, Aschau am Inn,
+      <h4>August 2019 – June 2021 - IT Systems Specialist (Apprenticeship) at Salesians of Don Bosco, Aschau am Inn,
         Germany</h4>
-      <p>Consulting customers regarding planning and purchasing of IT products based on their needs and budget</p>
-      <p>Deployment and maintenance of Windows based networks</p>
-      <p>First level IT support</p>
+      <p>- Consulting customers regarding planning and purchasing of IT products based on their needs and budget</p>
+      <p>- Deployment and maintenance of Windows based networks</p>
+      <p>- First level IT support</p>
     </div>
 
     <div class="job">
       <h4>August 2018 – July 2019 - Hotel Assistant at Salesians of Don Bosco, Aschau Am Inn, Germany</h4>
-      <p>Advising and tending to hotel guests, and ensuring their well-being</p>
-      <p>Maintenance and preparation of conference and guest rooms</p>
-      <p>General restaurant catering duties</p>
-      <p>Reception and administrative obligations</p>
+      <p>- Advising and tending to hotel guests, and ensuring their well-being</p>
+      <p>- Maintenance and preparation of conference and guest rooms</p>
+      <p>- General restaurant catering duties</p>
+      <p>- Reception and administrative obligations</p>
     </div>
 
   </section>
